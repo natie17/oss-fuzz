@@ -1,0 +1,6 @@
+homepage: "https://github.com/google/oss-fuzz-gen"
+language: c
+primary_contact: "natie@example.com"
+main_repo: "local"
+sanitizers:
+  - address
