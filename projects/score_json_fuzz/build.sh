@@ -29,8 +29,8 @@ SOURCES=(
     "$SRC/baselibs/score/language/futurecpp/src/assert.cpp"
 )
 
-# oss-fuzz-gen이 LLM 하네스를 이 경로에 복사함
-FUZZ_TARGET="$SRC/baselibs/score/json/fuzz_json_parser.cpp"
+# oss-fuzz-gen이 LLM 하네스를 /src/fuzz_json_parser.cpp에 복사
+FUZZ_TARGET="/src/fuzz_json_parser.cpp"
 
 $CXX $CXXFLAGS \
     -I$SRC/baselibs \
