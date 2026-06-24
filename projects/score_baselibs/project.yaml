@@ -1,0 +1,8 @@
+homepage: "https://github.com/eclipse-score/baselibs"
+language: c++
+primary_contact: "you@example.com"
+sanitizers:
+  - address
+  - undefined
+fuzzing_engines:
+  - libfuzzer

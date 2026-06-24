@@ -1,0 +1,8 @@
+homepage: "https://github.com/COVESA/dlt-daemon"
+language: c
+primary_contact: "you@example.com"
+sanitizers:
+  - address
+  - undefined
+fuzzing_engines:
+  - libfuzzer
